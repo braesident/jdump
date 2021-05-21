@@ -1,0 +1,23 @@
+{
+	"name" : "braesident/jdump",
+	"description" : "Dumps messages for debugging",
+	"type" : "library",
+	"homepage" : "https://exunova.de",
+	"authors" : [{
+			"name" : "Sebastian Braesicke"
+		}
+	],
+	"require" : {
+		"php" : ">=5.6.0"
+	},
+	"license" : "Closed Source Software",
+	"config" : {
+		"sort-packages" : true
+	},
+	"autoload" : {
+		"files" : ["src/jdump.php"],
+		"psr-4" : {
+			"Braesident\\jdump\\" : "src/"
+		}
+	}
+}
