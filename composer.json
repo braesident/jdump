@@ -1,6 +1,6 @@
 {
 	"name" : "braesident/jdump",
-	"description" : "Dumps messages for debugging",
+	"description" : "Create a dump of variables and output them as a JSON string.",
 	"type" : "library",
 	"homepage" : "https://exunova.de",
 	"authors" : [{
@@ -10,7 +10,7 @@
 	"require" : {
 		"php" : ">=5.6.0"
 	},
-	"license" : "Closed Source Software",
+	"license" : "MIT",
 	"config" : {
 		"sort-packages" : true
 	},
